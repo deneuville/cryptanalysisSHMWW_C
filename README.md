@@ -80,10 +80,12 @@ time break:           	[269607	251746	282868	273585	321355	312491	219079	316961	
 
 ## Technical details and reference
 
-The technical details about the cryptanalysis will be soon provided in a complete paper. Some preliminary information can be found in [ADG20, BKPS20]
+The technical details about the cryptanalysis will be soon provided in a complete paper. Some preliminary information can be found in [ADG20, BKPS20]. A merged paper has been submitted to [Designs, Codes and Cryptography](https://www.springer.com/journal/10623).
 
-[ADG20] Aragon, N., Deneuville, J.-C., & Gaborit, P. (2020). *Another code-based adaptation of Lyubashevsky’s signature cryptanalysed*. ePrint2020/923
-[BKPS20] Baldi, M., Khathuria, K., Persichetti, E., Santini, P. (2020). *Cryptanalysis of a Code-Based Signature Scheme Based on the Lyubashevsky Framework*. ePrint2020/905
+[ADG20] Aragon, N., Deneuville, J.-C., & Gaborit, P. (2020). *Another code-based adaptation of Lyubashevsky’s signature cryptanalysed*. [ePrint2020/923](https://eprint.iacr.org/2020/923)
+
+[BKPS20] Baldi, M., Khathuria, K., Persichetti, E., Santini, P. (2020). *Cryptanalysis of a Code-Based Signature Scheme Based on the Lyubashevsky Framework*. [ePrint2020/905](https://eprint.iacr.org/2020/905)
+
 [SHMWW] Song, Y., Huang, X., Mu, Y., Wu, W., & Wang, H. (2020). *A code-based signature scheme from the Lyubashevsky framework*. Theoretical Computer Science.
 
 
