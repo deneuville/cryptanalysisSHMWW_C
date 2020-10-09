@@ -7,7 +7,9 @@ This repository hosts:
 
 ## Compiling the software
 
-To run the software, you should have `gf2x` and `ntl` installed at a standard location `/usr/local` (modify the `Makefile` accordingly otherwise).
+To run the software, you should have `gf2x`, `gmp` and `ntl` installed at a standard location `/usr/local` (modify the `Makefile` accordingly otherwise).
+
+Notice that `gmp` and `gf2x` are not mandatory, but you'll have to modify the `Makefile` if you don't have these libraries installed.
 
 Simply run `make`.
 
