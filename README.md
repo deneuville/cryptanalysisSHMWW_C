@@ -42,7 +42,7 @@ Depending on the instance, the number of signatures available and your machine, 
 
 ## Example of output for each parameter set
 
-Some sample results obtained with Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz:
+Some sample cryptanalysis results using 100 signatures for both parameter sets. (obtained with Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz)
 
 ```
 deneuville@deneuville$ ./breakSHMWW 1 100 10
