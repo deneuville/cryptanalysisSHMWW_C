@@ -4,10 +4,20 @@
 
 using namespace NTL;
 
-uint64_t Hweight(vec_GF2 vect, int length) {
-	uint64_t weight=0;
+int Hweight(vec_GF2 vect, int length) {
+	int weight=0;
 	for (int i = 0; i < length; ++i) {
 		if (IsOne(vect[i])) {
+			++weight;
+		}
+	}
+	return weight;
+}
+
+uint64_t HweightC(mat_GF2 M, int nbRows, int column) {
+	uint64_t weight=0;
+	for (int i = 0; i < nbRows; ++i) {
+		if (IsOne(M[i][column])) {
 			++weight;
 		}
 	}
@@ -33,10 +43,8 @@ void readVectFromFile(FILE* f, vec_GF2 &v, int length) {
 	for (int i = 0; i < length; ++i) {
 		ret = fscanf(f, "%d ", &val);
 		v[i] = val;
-		#ifdef ROUT_VERBOSE
 		if (ret != 1)
 			cerr << "v[" << i << "] --> " << ret << "\n";
-		#endif
 	}
 	//printZ(v, length);
 }

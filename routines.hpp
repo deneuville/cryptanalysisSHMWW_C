@@ -17,10 +17,6 @@ using namespace NTL;
 
 
 typedef struct {
-	uint8_t* z, c, commitment;	
-}signature;
-
-typedef struct {
 	int n;
 	int k;
 	int dGV;
@@ -32,7 +28,9 @@ typedef struct {
 	int secu;
 }param_set;
 
-uint64_t Hweight(vec_GF2 vect, int length);
+int Hweight(vec_GF2 vect, int length);
+
+uint64_t HweightC(mat_GF2 M, int nbRows, int column);
 
 void printVect(vec_GF2 vect, int length);
 

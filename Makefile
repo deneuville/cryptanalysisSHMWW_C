@@ -1,8 +1,9 @@
 all: obj
-	g++ -g -O3 -std=c++11 -pthread -march=native -fpermissive routines.o cryptanalysis.o -o breakSHMWW -lntl -lgmp -lm
+	g++ -I/usr/local/include -L/usr/local/lib -Wall -g -O3 -std=c++11 -pthread -march=native -fpermissive routines.o cryptanalysisSHMWW.o -o breakSHMWW -lntl -lgmp -lgf2x -lm
 
 obj:
-	g++ -g -O3 -std=c++11 -pthread -march=native -fpermissive routines.cpp cryptanalysis.cpp -c -lntl -lgmp -lm
+	g++ -I/usr/local/include -L/usr/local/lib -Wall -g -O3 -std=c++11 -pthread -march=native -fpermissive routines.cpp cryptanalysisSHMWW.cpp -c -lntl -lgmp -lgf2x -lm
 
 clean:
-	rm *.o
+	rm -rf *.o breakSHMWW
+
