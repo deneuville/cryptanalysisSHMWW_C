@@ -15,7 +15,7 @@ Simply run `make`.
 
 ## Generating an instance along with signatures
 
-Song *et al.* proposed two sets of parameters: PARA-1 and PARA-2 respectively targeting 80 and 128 bits of classical security (see Table 1 of [SHMWW]).
+Song *et al.* proposed two sets of parameters: PARA-1 and PARA-2 respectively targeting 80 and 128 bits of classical security (see Table 1 of [SHMWW20]).
 
 To generate an instance of PARA-`X` along with `N` signatures for that instance, run:
 ```./breakSHMWW X N 1```
@@ -25,7 +25,7 @@ If you want to run `K` such instances (iteratively), replace `1` in the previous
 
 To reduce the burden of manipulating files, the keys and signatures are voluntary not stored.
 
-For cryptanalytic purposes, the use of a weight restricted hash (WRH) function is not mandatory. Instead, we generate the challenge as a vector c of same lenght (h') and weight (w_1) as the output of the WRH function described in [SHMWW].
+For cryptanalytic purposes, the use of a weight restricted hash (WRH) function is not mandatory. Instead, we generate the challenge as a vector c of same lenght (h') and weight (w_1) as the output of the WRH function described in [SHMWW20].
 
 By default, the software provides information about:
 1. The time it took to generate the keypair (SHMWW-related)
@@ -82,7 +82,7 @@ time break:           	[269607	251746	282868	273585	321355	312491	219079	316961	
 
 ## Technical details and reference
 
-The technical details about the cryptanalysis will be soon provided in a complete paper. Some preliminary information can be found in [ADG20, BKPS20]. A merged paper appears [Designs, Codes and Cryptography](https://www.springer.com/journal/10623).
+The technical details about the cryptanalysis will be soon provided in a complete paper. Some preliminary information can be found in [ADG20, BKPS20]. A merged paper [ABDKPS21] appears [Designs, Codes and Cryptography](https://www.springer.com/journal/10623).
 
 [ADG20] Aragon, N., Deneuville, J.-C., & Gaborit, P. (2020). *Another code-based adaptation of Lyubashevsky’s signature cryptanalysed*. [ePrint2020/923](https://eprint.iacr.org/2020/923)
 
