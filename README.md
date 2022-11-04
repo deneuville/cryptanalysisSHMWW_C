@@ -1,5 +1,5 @@
 # cryptanalysisSHMWW_C
-C implementation of the cryptanalysis of Song *et al.* code-based signature scheme, publishesd in [Theoretical Computer Science](https://doi.org/10.1016/j.tcs.2020.05.011)
+C implementation of the cryptanalysis of Song *et al.* code-based signature scheme, published in [Theoretical Computer Science](https://doi.org/10.1016/j.tcs.2020.05.011)
 
 This repository hosts:
 1. a C++ implementation of the code-based signature scheme proposed by Song, Huang, Mu, Wu, and Wang [Theoretical Computer Science](https://doi.org/10.1016/j.tcs.2020.05.011),
@@ -82,12 +82,14 @@ time break:           	[269607	251746	282868	273585	321355	312491	219079	316961	
 
 ## Technical details and reference
 
-The technical details about the cryptanalysis will be soon provided in a complete paper. Some preliminary information can be found in [ADG20, BKPS20]. A merged paper has been submitted to [Designs, Codes and Cryptography](https://www.springer.com/journal/10623).
+The technical details about the cryptanalysis will be soon provided in a complete paper. Some preliminary information can be found in [ADG20, BKPS20]. A merged paper appears [Designs, Codes and Cryptography](https://www.springer.com/journal/10623).
 
 [ADG20] Aragon, N., Deneuville, J.-C., & Gaborit, P. (2020). *Another code-based adaptation of Lyubashevsky’s signature cryptanalysed*. [ePrint2020/923](https://eprint.iacr.org/2020/923)
 
 [BKPS20] Baldi, M., Khathuria, K., Persichetti, E., Santini, P. (2020). *Cryptanalysis of a Code-Based Signature Scheme Based on the Lyubashevsky Framework*. [ePrint2020/905](https://eprint.iacr.org/2020/905)
 
-[SHMWW] Song, Y., Huang, X., Mu, Y., Wu, W., & Wang, H. (2020). *A code-based signature scheme from the Lyubashevsky framework*. Theoretical Computer Science.
+[ABDKPS21] Aragon, N., Baldi, M., Deneuville, J.-C., Khaturia, K., Persichetti, E. & Santini, P. (2021). *Cryptanalysis of a code-based full-time signature*. [Des. Codes Cryptogr. 89(9): 2097-2112](https://link.springer.com/article/10.1007/s10623-021-00902-7)
+
+[SHMWW20] Song, Y., Huang, X., Mu, Y., Wu, W., & Wang, H. (2020). *A code-based signature scheme from the Lyubashevsky framework*. [Theoretical Computer Science, Volume 835, 2 October 2020, Pages 15-30](https://www.sciencedirect.com/science/article/pii/S0304397520302723)
 
 
